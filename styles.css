@@ -1,0 +1,124 @@
+/* Reset beberapa default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background: url('foto/bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-content button {
+    background-color: #6f4f1f;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color #ff4242;
+}
+
+.hero-content button:hover {
+    background-color: #ffffff;
+}
+
+/* Section Produk */
+.products {
+    padding: 50px 20px;
+    background: url('foto/bg5.jpg') no-repeat center center/cover;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.product-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #414141;
+}
+
+/* Testimonial */
+.testimonial {
+    background-color: #6f4f1f;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonial p {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.testimonial span {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* Footer */
+.footer {
+    background-color: #ff7474;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer p {
+    font-size: 1rem;
+}
